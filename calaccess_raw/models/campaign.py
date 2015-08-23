@@ -12,7 +12,8 @@ class CvrSoCd(CalAccessBaseModel):
     """
     acct_opendt = fields.DateTimeField(
         db_column="ACCT_OPENDT",
-        null=True
+        null=True,
+        help_text="Testing",
     )
     ACTIVITY_LEVEL_CHOICES = (
         ("CI", "City"),
