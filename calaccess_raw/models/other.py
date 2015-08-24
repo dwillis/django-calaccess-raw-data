@@ -45,7 +45,7 @@ class AcronymsCd(CalAccessBaseModel):
 class AddressCd(CalAccessBaseModel):
     """
     This table holds all addresses for the system. This table can be used
-    for address-based searches and formes the bases for address information
+    for address-based searches and forms the basis for address information
     desplayed by the AMS.
     """
     adrid = fields.IntegerField(
